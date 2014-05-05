@@ -1,4 +1,3 @@
-rm dist.js
 cat manifest.js dependency/underscore.js dependency/jquery.min.js dependency/uikit.js dependency/keymaster.js engine.js > dist-base.js
 # cat sites/*.js
 echo "" > dist-scripts.js
