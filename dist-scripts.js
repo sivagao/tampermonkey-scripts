@@ -77,8 +77,6 @@ function addRoute(ruleHost, rulePath, cb) {
     }
 }
 
-addScript('http://raw.githubusercontent.com/gaohailang/tampermonkey-scripts/master/dist-scripts.js');
-
 addRoute('.*', function() {
     console.log('siva" tampermonkey is running');
 });addRoute('douban.com', 'subject/.*', function() {

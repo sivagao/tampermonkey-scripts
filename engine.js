@@ -67,5 +67,3 @@ function addRoute(ruleHost, rulePath, cb) {
         cb();
     }
 }
-
-addScript('http://raw.githubusercontent.com/gaohailang/tampermonkey-scripts/master/dist-scripts.js');
